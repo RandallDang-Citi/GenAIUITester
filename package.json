@@ -1,0 +1,19 @@
+{
+  "name": "genaiuitester",
+  "version": "1.0.0",
+  "description": "GenAI tool to generate Unit Test code packages for UI projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandallDang-Citi/GenAIUITester.git"
+  },
+  "author": "Randall Dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandallDang-Citi/GenAIUITester/issues"
+  },
+  "homepage": "https://github.com/RandallDang-Citi/GenAIUITester#readme"
+}
