@@ -4,7 +4,8 @@
   "description": "GenAI tool to generate Unit Test code packages for UI projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/RandallDang-Citi/GenAIUITester/issues"
   },
-  "homepage": "https://github.com/RandallDang-Citi/GenAIUITester#readme"
+  "homepage": "https://github.com/RandallDang-Citi/GenAIUITester#readme",
+  "dependencies": {
+    "@azure/identity": "^4.4.0",
+    "@azure/openai": "^2.0.0-beta.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.53.2"
+  }
 }
