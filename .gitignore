@@ -14,7 +14,7 @@ yarn-error.log*
 docs/api/
 docs/build/
 
-
+.env
 
 # 忽略系统文件
 .DS_Store
